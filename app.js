@@ -27,6 +27,7 @@ function agregarPedido() {
             var precioProducto = querySnapshot.docs[0].data().price;
 
             // Calcular el total
+            //esta actualizado
             var total = parseFloat(precioProducto) * parseInt(cantidad);
 
             // Asumiendo que ya tienes una función para agregar pedidos
